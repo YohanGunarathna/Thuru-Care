@@ -1,0 +1,84 @@
+.text {
+  width: 1200px;
+  height: 200px;
+  margin-left: auto;
+  font-size: 25px;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+  padding: 10px;
+  text-align: justify;
+  word-spacing: 13px;
+  font-style: oblique;
+  /*font-family: sans-serif;*/
+}
+
+.image_container {
+  /* border: 2px solid black; */
+  width: 1200px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+
+.image1,
+.image2,
+.image3,
+.image4 {
+  /* border: 2px solid black; */
+  width: 220px;
+  height: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/*.image1 {
+  background-image: url("../assets/body.jpeg");
+}
+
+.image2 {
+  background-image: url("../assets/leaf.jpg");
+}
+
+.image3 {
+  background-image: url("../assets/trunk.jpg");
+}
+
+.image4 {
+  background-image: url("../assets/1.jpg");
+}*/
+
+
+.page_main {
+  width: 1400px;
+}
+
+.image1 {
+  background-image: url("../images/healthy1.jpg");
+}
+
+.image2 {
+  background-image: url("../images/healthy2.jpg");
+}
+
+.image3 {
+  background-image: url("../images/diseased1.png");
+}
+
+.image4 {
+  background-image: url("../images/diseased2.png");
+}
